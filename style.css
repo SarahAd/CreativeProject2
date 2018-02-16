@@ -1,0 +1,369 @@
+html, body {
+	margin: 0;
+	border: 0;
+}
+
+form {
+	padding: 0 1vw 1vw 1vw;
+	display: grid;
+	display: grid;
+  	grid-template-columns: 2fr 1fr;
+  	grid-row-start: 0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Julius Sans One', sans-serif;
+	align-content: center;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-color: black;
+}
+
+.navbar {
+	padding: 1.9vw;
+	margin: 1vw;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background-color: #F5F5F5;
+}
+
+h6 {
+	font-family: 'Julius Sans One', sans-serif;
+	padding: 3vw;
+	font-size: 2vw;
+	line-height: 150%
+}
+
+.container {
+	box-shadow: 0.5vw 0.5vw 0.5vw grey;
+	background-color: white;
+	margin: 2vw;
+}
+
+img {
+	box-shadow: 0.5vw 0.5vw 0.5vw grey;
+}
+
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Julius Sans One', sans-serif;
+	align-content: center;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-color: black;
+}
+
+.navbar {
+	padding: 1.9vw;
+	margin: 1vw;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+.paintings {
+	display: grid;
+	grid-gap: 2.5vw;
+	padding: 2.5vw;
+	grid-template-columns: 1fr 1fr;
+}
+
+.paintings img {
+	width: 46.2vw;
+}
+
+main {
+	display: grid;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-image: url("./Images/food.jpg");
+	background-size: 100%;
+	min-height: 67vw;
+	background-repeat: no-repeat;
+}
+
+#coding {
+	display: grid;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-image: url("./Images/logo.jpg");
+	background-size: 100%;
+	min-height: 100%;
+	max-width: 100%;
+	background-repeat: no-repeat;
+}
+
+main img {
+	box-shadow: 0.5vw 0.5vw 0.5vw grey;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+	border: 0;
+	text-align: center;
+	font-weight: lighter;
+	background-repeat: no-repeat;
+	color: white;
+	line-height: 100%;
+	text-shadow: 0.3vw 0.3vw 0.5vw black;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Meddon', cursive;
+	margin: 0;
+	border: 0;
+	text-align: center;
+	font-weight: lighter;
+	color: white;
+	opacity: 1;
+	line-height: 100%;
+	text-shadow: 0.3vw 0.3vw 0.5vw black;
+}
+h3 {
+	font-family: 'Bad Script', cursive;;
+	margin: 0;
+	border: 0;
+	text-align: center;
+	font-weight: lighter;
+	background-repeat: no-repeat;
+	line-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+	.footer a {
+		text-decoration: none;
+		font-size: 5.5vw;
+		font-family: 'Quicksand', sans-serif;
+		color: black;
+		padding: 3vw 0vw 4vw 2vw;
+		text-align: left;
+		float: top;
+	}
+
+	.footer img {
+		box-shadow: none;
+		height: 5.5vw;
+		width: 5.5vw;
+		padding: 5vw 1vw 0 4vw;
+	}
+
+	h1 {
+		font-size: 33vw;
+		padding: 9vw 0vw 9vw 0vw;
+	}
+
+	h3 {
+		font-size: 7vw;
+		font-color: white;
+		padding: 3vw 3vw 8vw 3vw;
+		text-shadow: 0.3vw 0.3vw 0.5vw black;
+		color: white;
+	}
+
+	input {
+ 		font-size: 12vw;
+ 		background-color: white;
+	  	width: 50vw;
+	 	height: 3vw;
+	  	font-family: 'Quicksand', sans-serif;
+	  	text-transform: uppercase;
+	  	font-size: 2.5vw;
+	  	font-weight: lighter;
+	  	vertical-align: center;
+	  	margin: 0;
+	  	border: 0;
+	  	opacity: 0.8;
+	  	box-shadow: 0.5vw 0.5vw 2vw 0.1vw black;
+	  	outline: none;
+	  	background-color: #F5F5F5;
+	}
+
+	#recipeInput {
+		font-size: 5vw;
+		padding: 7.5vw;
+		margin-left: 1vw;
+	}
+
+	#recipeSubmit {
+		height: 18.1vw;
+		width: 31vw;
+		background-color:  #d4822b;
+		color: white;
+		font-size: 5vw; 
+		box-shadow: -0.1vw 0.5vw 2vw 0.1vw black;
+		
+	}
+	
+	#recipeResults {
+		font-family: 'Quicksand', sans-serif;
+		font-size: 5vw;
+		text-align: center;
+		line-height: 150%;
+		padding: 0 0 0 5VW;
+		text-overflow: none;
+		overflow-wrap: break-word;
+		width: 90vw;
+	}
+
+	h5 {
+		margin: 0;
+	}
+
+	hr {
+	    height: 2vw;
+	    border: 0;
+	    box-shadow: 0 2vw 2vw rgba(0, 0, 0, 0.2);
+	    width: 70vw;
+	    align: left;
+	    margin-left: -5vw;
+	    width: 100vw;
+	}
+
+	.navbar {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		font-size: 2.5vw;
+		padding: 0;
+		margin: 3vw 0 3vw 0;
+	}
+
+	.navbar a {
+		padding: 3vw;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+@media screen and (min-width: 700px) {
+	.footer a {
+		text-decoration: none;
+		font-size: 3vw;
+		font-family: 'Quicksand', sans-serif;
+		color: black;
+		padding: 2vw 0vw 7vw 2vw;
+		text-align: left;
+		float: bottom;
+	}
+
+	.footer img {
+		box-shadow: none;
+		height: 3vw;
+		width: 3vw;
+		padding: 4vw 1vw 0 3vw;
+		float: bottom;
+	}
+
+	h1 {
+		font-size: 30vw;
+		padding: 7.2vw 0vw 7.2vw 0vw;
+	}
+
+	h3 {
+		font-size: 6vw;
+		font-color: white;
+		padding: 3vw;
+		text-shadow: 0.3vw 0.3vw 0.5vw 1vw black;
+		color: white;
+	}
+
+	input {
+ 		font-size: 3vw;
+ 		background-color: white;
+	    padding: 3vw;
+	  	width: 71.9vw;
+	 	height: 3vw;
+	  	font-family: 'Quicksand', sans-serif;
+	  	text-transform: uppercase;
+	  	font-size: 2.5vw;
+	  	font-weight: lighter;
+	  	vertical-align: center;
+	  	margin: 0;
+	  	border: 0;
+	  	opacity: 0.7;
+	  	box-shadow: 0.5vw 0.5vw 3vw black;
+	  	outline: none;
+	}
+
+	#recipeSubmit {
+		padding-bottom: 3vw;
+		margin: 0;
+		height: 9vw;
+		width: 20vw;
+		opacity: 0.95;
+		color: white;
+		background-color:  #d4822b;
+		box-shadow: -1vw 0 5vw 0.3vw black;'
+	}
+	
+	#recipeResults {
+		font-family: 'Quicksand', sans-serif;
+		font-size: 3vw;
+		line-height: 150%;
+		padding: 0 0 0 5VW;
+		text-overflow: none;
+		overflow-wrap: break-word;
+		width: 90vw;
+		text-align: center;
+	}
+
+	h5 {
+		margin: 0;
+	}
+
+	hr {
+	    height: 2vw;
+	    border: 0;
+	    box-shadow: 0 2vw 2vw rgba(0, 0, 0, 0.2);
+	    width: 70vw;
+	    align: left;
+	    margin-left: -5vw;
+	    width: 100vw;
+	}
+
+	.navbar {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		font-size: 2.5vw;
+		padding: 0;
+		margin: 3vw 0 3vw 0;
+	}
+
+	.navbar a {
+		padding: 3vw;
+	}
+
+}
+
