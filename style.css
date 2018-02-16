@@ -85,7 +85,7 @@ main {
 	margin: 0;
 	border: 0;
 	padding: 0;
-	background-image: url("./Images/food.jpg");
+	background-image: url("./food.jpg");
 	background-size: 100%;
 	min-height: 67vw;
 	background-repeat: no-repeat;
@@ -96,7 +96,7 @@ main {
 	margin: 0;
 	border: 0;
 	padding: 0;
-	background-image: url("./Images/logo.jpg");
+	background-image: url("./logo.jpg");
 	background-size: 100%;
 	min-height: 100%;
 	max-width: 100%;
@@ -221,7 +221,7 @@ h3 {
 		text-align: center;
 		padding: 0 0 0 5VW;
 		text-overflow: none;
-		overflow-wrap: all;
+		overflow-wrap: break-word;
 		width: 90vw;
 	}
 
