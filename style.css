@@ -209,7 +209,7 @@ h3 {
 
 	#recipeSubmit {
 		height: 18.1vw;
-		width: 31vw;
+		width: 30vw;
 		background-color:  #d4822b;
 		color: white;
 		font-size: 5vw; 
@@ -218,18 +218,27 @@ h3 {
 	}
 	
 	#recipeResults {
-		font-family: 'Quicksand', sans-serif;
-		font-size: 5vw;
 		text-align: center;
-		line-height: 150%;
 		padding: 0 0 0 5VW;
 		text-overflow: none;
-		overflow-wrap: break-word;
+		overflow-wrap: all;
 		width: 90vw;
 	}
 
 	h5 {
-		margin: 0;
+		margin: 2vw;
+		font-size: 8vw;
+		text-transform: capitalize;
+		color: #d4822b;
+		text-shadow: 0.5vw 0.5vw 0.3vw 	#F5F5F5;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	h4 {
+		margin: 2vw;
+		font-size: 6vw;
+		text-transform: capitalize;
+		font-family: 'Bad Script', sans-serif;
 	}
 
 	hr {
@@ -321,7 +330,7 @@ h3 {
 		padding-bottom: 3vw;
 		margin: 0;
 		height: 9vw;
-		width: 20vw;
+		width: 19vw;
 		opacity: 0.95;
 		color: white;
 		background-color:  #d4822b;
@@ -329,18 +338,27 @@ h3 {
 	}
 	
 	#recipeResults {
-		font-family: 'Quicksand', sans-serif;
-		font-size: 3vw;
-		line-height: 150%;
+		text-align: center;
 		padding: 0 0 0 5VW;
 		text-overflow: none;
 		overflow-wrap: break-word;
 		width: 90vw;
-		text-align: center;
 	}
 
 	h5 {
-		margin: 0;
+		margin: 2vw;
+		font-size: 5vw;
+		text-transform: capitalize;
+		color: #d4822b;
+		text-shadow: 0.5vw 0.5vw 0.3vw 	#F5F5F5;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	h4 {
+		margin: 2vw;
+		font-size: 3vw;
+		text-transform: capitalize;
+		font-family: 'Bad Script', sans-serif;
 	}
 
 	hr {
@@ -349,7 +367,7 @@ h3 {
 	    box-shadow: 0 2vw 2vw rgba(0, 0, 0, 0.2);
 	    width: 70vw;
 	    align: left;
-	    margin-left: -5vw;
+	    margin-left: -8vw;
 	    width: 100vw;
 	}
 
